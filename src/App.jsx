@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { motion, AnimatePresence } from "framer-motion";
 import { AppProvider } from "./Context/AppContext";
 import Navbar from "./Components/Navbar";
-import Footer from "./components/Footer";
+import Footer from "./Components/Footer";
 import Home from "./pages/Home";
 import Booking from "./pages/Booking";
 import Pricing from "./pages/Pricing";

@@ -1,5 +1,5 @@
-const bgISBImages = "/Airport-Parking/public/Bg_Isb_Airport.jpg";
-const logoIsbAirport = "/Airport-Parking/public/Logo_Isb_Airport.png";
+const bgISBImages = "/Airport-Parking/Bg_Isb_Airport.jpg"; // Fixed path
+const logoIsbAirport = "/Airport-Parking/Logo_Isb_Airport.png"; // Fixed path
 
 const Images = {
   bgISBImages,
