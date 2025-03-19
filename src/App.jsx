@@ -1,19 +1,19 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import { motion, AnimatePresence } from 'framer-motion';
-import { AppProvider } from './Context/AppContext';
-import Navbar from './Components/Navbar';
-import Footer from './components/Footer';
-import Home from './pages/Home';
-import Booking from './pages/Booking';
-import Pricing from './pages/Pricing';
-import Contact from './pages/Contact';
-import Support from './pages/Support';
-import PaymentCallback from './pages/PaymentCallback';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { motion, AnimatePresence } from "framer-motion";
+import { AppProvider } from "./Context/AppContext";
+import Navbar from "./Components/Navbar";
+import Footer from "./components/Footer";
+import Home from "./pages/Home";
+import Booking from "./pages/Booking";
+import Pricing from "./pages/Pricing";
+import Contact from "./pages/Contact";
+import Support from "./pages/Support";
+import PaymentCallback from "./pages/PaymentCallback";
 
 function App() {
   return (
     <AppProvider>
-      <Router>
+      <Router basename="/Airport-Parking">
         <div className="min-h-screen flex flex-col">
           <Navbar />
           <main className="flex-grow">
@@ -35,4 +35,4 @@ function App() {
   );
 }
 
-export default App; 
+export default App;
