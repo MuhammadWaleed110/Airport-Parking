@@ -1,5 +1,5 @@
-const bgISBImages = "/Airport-Parking/Bg_Isb_Airport.jpg"; // Fixed path
-const logoIsbAirport = "/Airport-Parking/Logo_Isb_Airport.png"; // Fixed path
+const bgISBImages = `${import.meta.env.BASE_URL}Bg_Isb_Airport.jpg`; // Dynamic path
+const logoIsbAirport = `${import.meta.env.BASE_URL}Logo_Isb_Airport.png`; // Dynamic path
 
 const Images = {
   bgISBImages,
